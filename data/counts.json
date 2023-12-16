@@ -1,0 +1,72 @@
+[
+    {
+        "count_id": 1,
+        "count_date": "2023-01-01",
+        "counted_products": [
+            {
+                "product_id": 1,
+                "counted_quantity": 12
+            },
+            {
+                "product_id": 2,
+                "counted_quantity": 18
+            }
+        ]
+    },
+    {
+        "count_id": 2,
+        "count_date": "2023-01-02",
+        "counted_products": [
+            {
+                "product_id": 1,
+                "counted_quantity": 15
+            },
+            {
+                "product_id": 2,
+                "counted_quantity": 22
+            }
+        ]
+    },
+    {
+        "count_id": 3,
+        "count_date": "2023-01-02",
+        "counted_products": [
+            {
+                "product_id": "123",
+                "counted_quantity": 70
+            },
+            {
+                "product_id": "555",
+                "counted_quantity": "10"
+            }
+        ]
+    },
+    {
+        "count_date": "2023-12-12",
+        "counted_products": [
+            {
+                "product_id": "123",
+                "counted_quantity": 85
+            },
+            {
+                "product_id": "555",
+                "counted_quantity": "10"
+            }
+        ],
+        "count_id": 4
+    },
+    {
+        "count_date": "2023-12-16",
+        "counted_products": [
+            {
+                "product_id": "123",
+                "counted_quantity": "20"
+            },
+            {
+                "product_id": "345",
+                "counted_quantity": "20"
+            }
+        ],
+        "count_id": 5
+    }
+]
