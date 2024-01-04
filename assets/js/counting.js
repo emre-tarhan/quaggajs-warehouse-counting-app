@@ -52,12 +52,15 @@ document.addEventListener('DOMContentLoaded', function () {
     });
     
     Quagga.onDetected(function(result) {
+        if (document.getElementById('placeholder')) {
+            placeholder.remove();
+        }
+        
         var code = result.codeResult.code;
-        console.log(code);
-    
+        // console.log(code);
         var itemsDiv = document.getElementById('items');
-        var placeholder = document.getElementById('placeholder');
         var newItem = document.createElement('div');
+            
         newItem.className = 'flex mt-2 items-center justify-between gap-x-4 px-5 w-auto h-[50px] bg-gray-50 rounded-lg shadow-sm shadow-gray-200';
         placeholder.remove();
         
